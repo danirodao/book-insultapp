@@ -7,6 +7,7 @@ import javax.ws.rs.Produces;
 import java.util.HashMap;
 
 //endpoint to get random insults
+//no input required
 @RequestScoped
 @Path("/insult")
 public class InsultResource {
